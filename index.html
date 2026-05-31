@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>FOXI AI: Tire Health Check</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><a class="brand" href="https://www.foxitire.com/"><img src="https://www.foxitire.com/images/foxi_logo.svg" alt="FOXI"><b>FOXI</b></a><button class="menu" type="button"><i></i><i></i><i></i></button></header>
+<main>
+<section class="hero"><h1>FOXI AI:<br><span>Tire Health Check.</span></h1></section>
+<section class="panel"><div class="head"><b>1</b><div><h2>Tire photos</h2><p>Add 1-4 tires. Three photos per tire.</p></div></div><div id="tireList"></div><button id="addTire" class="light" type="button">Add tire</button></section>
+<button id="start" class="primary" type="button">Start AI health check</button>
+<div id="status" class="status"><i></i><span></span></div>
+<section id="result" class="result"><div id="cards"></div><p class="note"><b>Free booking.</b> If the store confirms no replacement is needed, you pay nothing.</p><button id="book" class="primary" type="button">Free booking</button></section>
+</main>
+<div id="toast" class="toast"></div>
+<script src="app.js"></script>
+<script src="ai.js"></script>
+</body>
+</html>

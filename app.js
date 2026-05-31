@@ -16,3 +16,7 @@ $("addTire").onclick=()=>{if(tires.length<4){tires.push(tire());render()}};$("st
 function ttl(r){return r=="overall"?"Tire front photo":r=="tread"?"Tire tread photo":"Size and DOT 4-digit code photo"}
 function hint(r){return r=="overall"?"Whole tire with wheel":r=="tread"?"Tire tread grooves close-up":"DOT 4-digit code"}
 render();
+
+function ttl(r){return r=="overall"?"Tire front photo":r=="tread"?"Tire tread photo":"Size / DOT code photo"}
+function hint(r){return r=="overall"?"Whole tire with wheel":r=="tread"?"Tire tread grooves close-up":"4 digits after DOT"}
+render();

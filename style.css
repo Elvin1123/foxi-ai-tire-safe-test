@@ -8,3 +8,6 @@
 
 /* camera icon cleanup */
 .ico{color:transparent!important;text-shadow:none!important}.ico:before,.ico:after{color:var(--o)!important}
+
+/* final camera icon reset */
+.ico:before,.ico:after{box-shadow:none!important}.up:nth-child(3) .ico:after{display:block!important}
